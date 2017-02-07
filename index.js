@@ -21,6 +21,7 @@ Fs.readdir(imgDir, (err, files) => {
     if(!files.length) return console.log('/img directory contains no images.');
     
     var randFile = randomInt(0, files.length);
+    console.log('PP will be switch with : ' + files[randFile]);
 
     updateAvatar(imgDir + files[randFile]);
 });
