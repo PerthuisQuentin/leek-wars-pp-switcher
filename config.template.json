@@ -1,5 +1,5 @@
 {
 	"username": "Username",
 	"password": "Password",
-	"imgDir": "imageFolder/"
+	"imageDirectory": "imageFolder/"
 }

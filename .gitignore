@@ -1,2 +1,4 @@
 node_modules/
 *.log
+imageFolder/
+config.json
